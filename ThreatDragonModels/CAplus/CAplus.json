@@ -19,8 +19,8 @@
                 "height": 80
               },
               "position": {
-                "x": 749,
-                "y": 411
+                "x": 649,
+                "y": 558
               },
               "angle": 0,
               "id": "3976eba8-2094-4140-acf3-b7a8c894f6e1",
@@ -97,8 +97,8 @@
                 "height": 100
               },
               "position": {
-                "x": 280,
-                "y": 175
+                "x": 356,
+                "y": 220
               },
               "angle": 0,
               "id": "b83c6a29-cb3b-4c7f-9160-069eb31b8283",
@@ -123,8 +123,8 @@
                 "height": 100
               },
               "position": {
-                "x": 792,
-                "y": 12
+                "x": 780,
+                "y": 68
               },
               "angle": 0,
               "id": "41742e0f-fb3f-4901-9825-75cfa20ece41",
@@ -158,7 +158,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "CardActivation",
+                      "text": "Активация",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -183,8 +183,8 @@
                 "height": 100
               },
               "position": {
-                "x": 134,
-                "y": 387
+                "x": 69,
+                "y": 487
               },
               "angle": 0,
               "id": "71f22fb7-6e7b-490e-9841-e15fc69dd414",
@@ -203,48 +203,11 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "71f22fb7-6e7b-490e-9841-e15fc69dd414"
-              },
-              "target": {
-                "id": "c8b164ed-33ea-4e3f-957a-66d712f6e2d4"
-              },
-              "vertices": [],
-              "id": "118dde3e-05a9-412b-90a6-8b0dd3b76f5e",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0,
-                    "offset": 1510
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "\"Карта выдана\"",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 8,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 63,
-                "y": 292
+                "x": 128,
+                "y": 626
               },
               "target": {
                 "x": 623,
@@ -252,12 +215,12 @@
               },
               "vertices": [
                 {
-                  "x": 282,
-                  "y": 310
+                  "x": 342,
+                  "y": 511
                 },
                 {
-                  "x": 483,
-                  "y": 263
+                  "x": 559,
+                  "y": 259
                 }
               ],
               "id": "f4ff4bbd-357d-4dfa-8001-364dea3da9de",
@@ -280,7 +243,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "CardActivation",
+                      "text": "Активация",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -289,6 +252,7 @@
               ],
               "z": 10,
               "hasOpenThreats": false,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -314,7 +278,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "CardActivation",
+                      "text": "Активация",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -390,6 +354,236 @@
                 }
               ],
               "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 212,
+                "y": 327
+              },
+              "angle": 0,
+              "id": "db1a360a-2a38-4fce-9891-3541ac7b9978",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Колл Центр"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "db1a360a-2a38-4fce-9891-3541ac7b9978"
+              },
+              "target": {
+                "id": "c8b164ed-33ea-4e3f-957a-66d712f6e2d4"
+              },
+              "vertices": [],
+              "id": "9a68531e-9149-4597-9399-2bc6706a6598",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Активация",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "71f22fb7-6e7b-490e-9841-e15fc69dd414"
+              },
+              "target": {
+                "id": "c8b164ed-33ea-4e3f-957a-66d712f6e2d4"
+              },
+              "vertices": [],
+              "id": "dab76846-cd51-4b11-9114-70a8bc41a4d7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "\"Карта выдана\"",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3976eba8-2094-4140-acf3-b7a8c894f6e1"
+              },
+              "target": {
+                "id": "db1a360a-2a38-4fce-9891-3541ac7b9978"
+              },
+              "vertices": [],
+              "id": "648754da-b44f-42fd-b49f-78ef7f91d6e0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Запрос активации",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3976eba8-2094-4140-acf3-b7a8c894f6e1"
+              },
+              "target": {
+                "id": "b83c6a29-cb3b-4c7f-9160-069eb31b8283"
+              },
+              "vertices": [],
+              "id": "d08df022-5103-417c-9735-6e6c7c6e93de",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Запрос Активации",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3976eba8-2094-4140-acf3-b7a8c894f6e1"
+              },
+              "target": {
+                "id": "b0d65236-2102-44f7-8737-be5132672f1d"
+              },
+              "vertices": [],
+              "id": "ebbab14f-b289-4351-8016-189e93ed4a45",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Запрос активации",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3976eba8-2094-4140-acf3-b7a8c894f6e1"
+              },
+              "target": {
+                "id": "41742e0f-fb3f-4901-9825-75cfa20ece41"
+              },
+              "vertices": [],
+              "id": "5d63a214-1365-4c55-90e7-d9ecc2d8c32e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Запрос активации",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
